@@ -9,7 +9,7 @@ public class BasePageHW {
 	WebDriver driver;
 	
 	public BasePageHW(WebDriver dr) {
-		PageFactory.initElements(dr, this);       // 3 Page factory
+		PageFactory.initElements(dr, this);       
 		this.driver = dr;
 	}
 
